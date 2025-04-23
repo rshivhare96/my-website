@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Cloud Architecture - Rohit Shivhare</title>
+  <meta name="description" content="Detailed information about cloud architecture expertise, including design principles, implementation, and best practices.">
+  <meta name="keywords" content="Cloud Architecture, AWS, Azure, Infrastructure as Code, Cloud Security, Cloud Computing">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Rohit Shivhare</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Cloud Architecture</h1>
+              <p class="mb-0">Designing a resilient, scalable, and cost‑effective cloud architecture is one of my core strengths. I focus on aligning infrastructure with business goals, ensuring high availability, security, and agility.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current">Cloud Architecture</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Content Section -->
+    <section id="content" class="section">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <div class="content p-4">
+              <h2 class="mb-4">Cloud Architecture</h2>
+              
+              <p class="lead mb-5">Designing a resilient, scalable, and cost‑effective cloud architecture is one of my core strengths. I focus on aligning infrastructure with business goals, ensuring high availability, security, and agility. Below is a detailed overview of how I approach cloud architecture end‑to‑end.</p>
+
+              <div class="numbered-sections">
+                <div class="section-item mb-4">
+                  <h3>1. Foundations & Design Principles</h3>
+                  <p>I begin by defining the core principles—scalability, fault tolerance, security, and cost efficiency. By mapping application requirements (such as throughput, latency, and compliance) to cloud service capabilities, I ensure that every architectural decision directly supports business outcomes.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>2. Infrastructure as Code (IaC)</h3>
+                  <p>I translate architectural designs into reusable, version‑controlled templates using tools like Terraform and AWS CloudFormation. This approach enforces consistency across environments, accelerates provisioning, and enables peer-reviewed changes. Automated pipelines validate IaC changes against staging deployments before rolling out to production.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>3. Network Topology & Security</h3>
+                  <p>I design virtual networks (VPCs) with segmented subnets—public for internet‑facing components and private for internal services—to minimize attack surfaces. I enforce least‑privilege access through IAM policies, security groups, and network ACLs. For perimeter security, I implement managed firewalls, web application firewalls (WAF), and DDoS protection services.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>4. Compute & Scalability</h3>
+                  <p>My compute strategy blends serverless and containerized workloads. For burst‑y traffic or event‑driven tasks, I leverage AWS Lambda or Azure Functions to pay only for execution time. Stateful or long‑running services are containerized in Kubernetes (EKS/AKS) clusters with autoscaling groups to handle load spikes gracefully.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>5. Data Storage & Persistence</h3>
+                  <p>I select the right storage tier based on access patterns and performance needs—object storage (S3, Azure Blob) for unstructured data, block storage (EBS, Managed Disks) for low‑latency disk volumes, and managed relational or NoSQL databases (RDS, Cosmos DB) for transactional workloads. I design data lakes on object storage, integrating with analytics engines for downstream processing.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>6. Reliability & Disaster Recovery</h3>
+                  <p>To achieve high availability, I distribute services across multiple availability zones (AZs) and regions, with automated failover mechanisms. I implement regular backups, point‑in‑time restores, and cross‑region replication for critical data. Recovery strategies are tested periodically through simulated outages to validate RTO and RPO objectives.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>7. Monitoring, Logging & Observability</h3>
+                  <p>I assemble a centralized monitoring stack—CloudWatch, Azure Monitor, or Prometheus—for metrics, logs, and traces. Custom dashboards track key performance indicators (KPIs), while alerts notify teams of anomalies before they impact users. Distributed tracing helps pinpoint latency bottlenecks across microservices.</p>
+                </div>
+
+                <div class="section-item mb-4">
+                  <h3>8. Cost Management & Optimization</h3>
+                  <p>Cloud expenses can spiral without proactive governance. I tag all resources for chargeback visibility, analyze spending patterns using native cost explorer tools, and implement rightsizing recommendations. Reserved instances or savings plans are used for steady‑state workloads, and serverless where appropriate to eliminate idle costs.</p>
+                </div>
+              </div>
+
+              <div class="conclusion mt-5">
+                <p>By following these practices—drawing on infrastructure‑as‑code, layered security, intelligent service selection, and rigorous observability—I architect cloud environments that are not only robust and secure but also optimized for performance and cost.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Rohit Shivhare</h3>
+      <p>Experienced Data Engineer specializing in building scalable data solutions and cloud-based architectures.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/rohit-shivhare-a857a4233/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/rshivhare96" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Rohit Shivhare</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html> 
